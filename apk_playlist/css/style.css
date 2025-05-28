@@ -1,0 +1,106 @@
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* CONTAINER BOX */
+.container {
+    background-color: #2e2e2e;
+    padding: 40px;
+    border-radius: 12px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* TEXT STYLES */
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.container h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    color: #84b9ff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* FORM SECTION */
+.form-section {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #000;
+}
+
+form button {
+    padding: 12px;
+    background-color: #f0f0f0;
+    color: #111;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #dcdcdc;
+}
+
+/* PLAYLIST SECTION */
+.playlist-section {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 6px 0;
+    font-size: 15px;
+}
+
+/* NAVIGATION */
+.nav-links {
+    margin-bottom: 15px;
+}
